@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Will1",
+            "request": "launch",
+            "mainClass": "Will1",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Will_1",
+            "request": "launch",
+            "mainClass": "Will_1",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "Ejercicio08_02",
             "request": "launch",
             "mainClass": "Ejercicio08_02",
