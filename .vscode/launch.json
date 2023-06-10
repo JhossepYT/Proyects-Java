@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ejercicio08_02",
+            "request": "launch",
+            "mainClass": "Ejercicio08_02",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Bloques",
+            "request": "launch",
+            "mainClass": "Bloques",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "InvertirUnString",
+            "request": "launch",
+            "mainClass": "InvertirUnString",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Octagono",
+            "request": "launch",
+            "mainClass": "Octagono",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "If_else",
+            "request": "launch",
+            "mainClass": "If_else",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Converter",
+            "request": "launch",
+            "mainClass": "Converter",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraPoissonGUI",
+            "request": "launch",
+            "mainClass": "CalculadoraPoissonGUI",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio_09",
+            "request": "launch",
+            "mainClass": "Ejercicio_09",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio_08",
+            "request": "launch",
+            "mainClass": "Ejercicio_08",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "Pentagono",
             "request": "launch",
             "mainClass": "Pentagono",

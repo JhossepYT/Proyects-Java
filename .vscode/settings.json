@@ -1,3 +1,17 @@
 {
-    "java.project.sourcePaths": []
+    "java.project.sourcePaths": [
+        "Proyects/While/WhileAnidado",
+        "Proyects/Turtle",
+        "Proyects/Prueba",
+        "Proyects/Problemas sobre condicionales",
+        "Proyects/Problemas",
+        "Proyects/Mascarilla",
+        "Proyects/If/Else",
+        "Proyects/Hello World",
+        "Proyects/Converter",
+        "Proyects/Calculadora de Poisson",
+        "Proyects/Bloques",
+        "Proyects/Aedo",
+        "Proyects/While"
+    ]
 }
