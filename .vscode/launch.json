@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Poligono_N_Lados",
+            "request": "launch",
+            "mainClass": "Poligono_N_Lados",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Octagono_2",
+            "request": "launch",
+            "mainClass": "Octagono_2",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "Prob_02",
             "request": "launch",
             "mainClass": "Prob_02",
