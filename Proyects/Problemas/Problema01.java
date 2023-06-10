@@ -6,6 +6,7 @@ class Problema01{
         String frase = sc.nextLine().toLowerCase();
         int contadorCual = 0;
         int contadorComo = 0;
+        sc.close();
 
         int p_cual = frase.indexOf("cual");
         int p_como = frase.indexOf("como");

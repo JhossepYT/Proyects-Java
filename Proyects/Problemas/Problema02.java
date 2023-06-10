@@ -8,6 +8,7 @@ class Problema02{
         System.out.println("Ingrese la secuencia de nucleotidos: ");
         String nucleotidos = sc.nextLine().toUpperCase();
         boolean valida = true;
+        sc.close();
 
         int i = 0;
         while(i < nucleotidos.length()){

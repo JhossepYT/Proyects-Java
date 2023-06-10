@@ -6,6 +6,7 @@ class Prob_1V2{
         String frase = sc.nextLine().toLowerCase();
         int contadorCual = 0;
         int contadorComo = 0;
+        sc.close();
 
         int i = 0;
         while(i < frase.length() - 3){

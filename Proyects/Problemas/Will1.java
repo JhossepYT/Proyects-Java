@@ -13,6 +13,7 @@ class Will1{
         System.out.println("Número ingresado: " + numero);
         int conta_user = 0;
         int conta_pc = 0;
+        sc.close();
 
         for(int i = 0; i > 0; i++){
             if(random == numero){
