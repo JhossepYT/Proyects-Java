@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pentagono",
+            "request": "launch",
+            "mainClass": "Pentagono",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "Poligono_N_Lados",
             "request": "launch",
             "mainClass": "Poligono_N_Lados",

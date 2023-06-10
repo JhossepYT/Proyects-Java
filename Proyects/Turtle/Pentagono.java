@@ -4,12 +4,9 @@ class Pentagono{
 		Turtle t = new Turtle();
         t.speed(500);
 
-
-        int i = 0;
-        while(i < 5){
+        for(int i = 0; i < 5; i++){
             t.move(55);
             t.turn(72);
-            i++;
         }
   }
 }
