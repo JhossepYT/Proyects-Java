@@ -2,6 +2,6 @@
 
 class Prueba {
     public static void main (String[] args){
-        System.out.print("Si esto compila soy Jesucristo");
+        System.out.print("Si esto compila soy Jesucristo ");
     }
 }
