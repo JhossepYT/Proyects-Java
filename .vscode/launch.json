@@ -1,0 +1,308 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Prob_02",
+            "request": "launch",
+            "mainClass": "Prob_02",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Problema02",
+            "request": "launch",
+            "mainClass": "Problema02",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Prob_03",
+            "request": "launch",
+            "mainClass": "Prob_03",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Prob3",
+            "request": "launch",
+            "mainClass": "Prob3",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Prob_2",
+            "request": "launch",
+            "mainClass": "Prob_2",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Prob_01",
+            "request": "launch",
+            "mainClass": "Prob_01",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Paz",
+            "request": "launch",
+            "mainClass": "Paz",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "SumaDeDigitos",
+            "request": "launch",
+            "mainClass": "SumaDeDigitos",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "InvertirUnString",
+            "request": "launch",
+            "mainClass": "InvertirUnString",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "TrianguloEquilatero_2",
+            "request": "launch",
+            "mainClass": "TrianguloEquilatero_2",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "InvertirStrings",
+            "request": "launch",
+            "mainClass": "InvertirStrings",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "ElmaximoDeVariosNumeros",
+            "request": "launch",
+            "mainClass": "ElmaximoDeVariosNumeros",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "ElMaximoDeVariosNumeros",
+            "request": "launch",
+            "mainClass": "ElMaximoDeVariosNumeros",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "ModoDrama",
+            "request": "launch",
+            "mainClass": "ModoDrama",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio_09",
+            "request": "launch",
+            "mainClass": "Ejercicio_09",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio_08",
+            "request": "launch",
+            "mainClass": "Ejercicio_08",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio_08",
+            "request": "launch",
+            "mainClass": "Proyectos.Aedo.Ejercicio_08",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Poligono_N_Lados",
+            "request": "launch",
+            "mainClass": "Poligono_N_Lados",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Octagono_2",
+            "request": "launch",
+            "mainClass": "Octagono_2",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "MonaLisa",
+            "request": "launch",
+            "mainClass": "MonaLisa",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "mona",
+            "request": "launch",
+            "mainClass": "mona",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Año_Bisiesto",
+            "request": "launch",
+            "mainClass": "Año_Bisiesto",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Bloques",
+            "request": "launch",
+            "mainClass": "Bloques",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraPoissonGUI",
+            "request": "launch",
+            "mainClass": "CalculadoraPoissonGUI",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Converter",
+            "request": "launch",
+            "mainClass": "Converter",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio08_01",
+            "request": "launch",
+            "mainClass": "Ejercicio08_01",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio08_02",
+            "request": "launch",
+            "mainClass": "Ejercicio08_02",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "If_else",
+            "request": "launch",
+            "mainClass": "If_else",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Mascarillas",
+            "request": "launch",
+            "mainClass": "Mascarillas",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Nikole",
+            "request": "launch",
+            "mainClass": "Nikole",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Nikole_0",
+            "request": "launch",
+            "mainClass": "Nikole_0",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Nikole_1",
+            "request": "launch",
+            "mainClass": "Nikole_1",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Nikole_2",
+            "request": "launch",
+            "mainClass": "Nikole_2",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Nikole_3",
+            "request": "launch",
+            "mainClass": "Nikole_3",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Nikole_4",
+            "request": "launch",
+            "mainClass": "Nikole_4",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Nikole_5",
+            "request": "launch",
+            "mainClass": "Nikole_5",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Nikole_6",
+            "request": "launch",
+            "mainClass": "Nikole_6",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Prueba",
+            "request": "launch",
+            "mainClass": "Prueba",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Prueba_Turtle",
+            "request": "launch",
+            "mainClass": "Prueba_Turtle",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "SumaVarios",
+            "request": "launch",
+            "mainClass": "SumaVarios",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "While",
+            "request": "launch",
+            "mainClass": "While",
+            "projectName": "Proyects_96517db8"
+        }
+    ]
+}
