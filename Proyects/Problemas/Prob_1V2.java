@@ -22,7 +22,6 @@ class Prob_1V2{
                 }
             } 
         }
-
         if(contadorCual == 0 && contadorComo == 0){
             System.out.println("No aparecen 'cual' ni 'como'");
         }else{
