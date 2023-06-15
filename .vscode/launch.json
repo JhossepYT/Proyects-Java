@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Problema02",
+            "request": "launch",
+            "mainClass": "Problema02",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Prueba_Turtle",
+            "request": "launch",
+            "mainClass": "Prueba_Turtle",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "Año_Bisiesto",
             "request": "launch",
             "mainClass": "Año_Bisiesto",
