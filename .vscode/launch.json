@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "While",
+            "request": "launch",
+            "mainClass": "While",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "RestaConMetodos",
             "request": "launch",
             "mainClass": "RestaConMetodos",
