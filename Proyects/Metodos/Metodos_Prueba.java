@@ -4,6 +4,7 @@ class Metodos_Prueba{
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese un numero entero positivo: ");
         int num = sc.nextInt();
+        sc.close();
         int suma = SumaDigitosUno.sumaDigitos(num);
         while(suma > 10){
             num = suma;
