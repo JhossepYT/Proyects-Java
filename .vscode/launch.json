@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Año_Bisiesto",
+            "request": "launch",
+            "mainClass": "Año_Bisiesto",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "SumaConMetodos",
+            "request": "launch",
+            "mainClass": "Proyects.Metodos.SumaConMetodos",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Metodos_Prueba",
+            "request": "launch",
+            "mainClass": "Proyects.Metodos.Metodos_Prueba",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "SumaConMetodos",
+            "request": "launch",
+            "mainClass": "SumaConMetodos",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "SumaDeDigitos",
+            "request": "launch",
+            "mainClass": "SumaDeDigitos",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Metodos_Prueba",
+            "request": "launch",
+            "mainClass": "Metodos_Prueba",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "Will1",
             "request": "launch",
             "mainClass": "Will1",
