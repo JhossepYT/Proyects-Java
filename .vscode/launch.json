@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Contaminantes",
+            "request": "launch",
+            "mainClass": "Contaminantes",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Maximo_NumeroV2",
+            "request": "launch",
+            "mainClass": "Maximo_NumeroV2",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Maximo_Numero",
+            "request": "launch",
+            "mainClass": "Maximo_Numero",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "While",
             "request": "launch",
             "mainClass": "While",
