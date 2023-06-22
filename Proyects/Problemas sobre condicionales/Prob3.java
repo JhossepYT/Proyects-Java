@@ -1,4 +1,4 @@
-package Proyects.If;
+
 import java.util.*;
 public class Prob3{
     public static void main(String[] args){
