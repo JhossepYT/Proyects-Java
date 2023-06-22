@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ParaElRecuerdo",
+            "request": "launch",
+            "mainClass": "ParaElRecuerdo",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "TestImage2",
             "request": "launch",
             "mainClass": "TestImage2",
