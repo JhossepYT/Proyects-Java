@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestImage2",
+            "request": "launch",
+            "mainClass": "TestImage2",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "TestImage",
+            "request": "launch",
+            "mainClass": "TestImage",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Prob3",
+            "request": "launch",
+            "mainClass": "Prob3",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Prob1",
+            "request": "launch",
+            "mainClass": "Prob1",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "Contaminantes",
             "request": "launch",
             "mainClass": "Contaminantes",
