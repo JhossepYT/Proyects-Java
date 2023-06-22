@@ -1,10 +1,8 @@
-import java.util.*;
 import episunsa.*;
 class TestImage{
     public static void main(String[] args){
         SimpleImage img = new SimpleImage("stop.jpg");
         SimpleImage back = new SimpleImage("leaves.jpg");
-        Scanner sc = new Scanner(System.in);
 
         for(Pixel p : img){
             int avg = ((p.getRed() + p.getGreen() + p.getBlue()) / 3); 
