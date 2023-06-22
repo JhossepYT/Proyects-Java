@@ -13,5 +13,6 @@ public class Prob3{
             total += duracionCancion;
         }
         System.out.println("El tiempo total es: " + total);
+        sc.close();
     }
 }
