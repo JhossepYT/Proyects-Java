@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Multiple_Turtles",
+            "request": "launch",
+            "mainClass": "Multiple_Turtles",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Prueba_Tortugas",
+            "request": "launch",
+            "mainClass": "Prueba_Tortugas",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "ParaElRecuerdo",
             "request": "launch",
             "mainClass": "ParaElRecuerdo",
