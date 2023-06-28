@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Prob10",
+            "request": "launch",
+            "mainClass": "Prob10",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Mariel",
+            "request": "launch",
+            "mainClass": "Mariel",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "Multiple_Turtles",
             "request": "launch",
             "mainClass": "Multiple_Turtles",

@@ -10,11 +10,12 @@
         "Proyects/Mascarilla",
         "Proyects/If/Else",
         "Proyects/Hello World",
+        "Proyects/EPISUNSA",
         "Proyects/Converter",
         "Proyects/Calculadora de Poisson",
         "Proyects/Bloques",
         "Proyects/Aedo",
-        "Proyects/EPISUNSA"
+        ""
     ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
