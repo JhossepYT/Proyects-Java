@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LibraryProgram",
+            "request": "launch",
+            "mainClass": "LibraryProgram",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "BibliotecaPrograma",
+            "request": "launch",
+            "mainClass": "BibliotecaPrograma",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Biblioteca",
+            "request": "launch",
+            "mainClass": "Biblioteca",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "PatternSearch",
             "request": "launch",
             "mainClass": "PatternSearch",
