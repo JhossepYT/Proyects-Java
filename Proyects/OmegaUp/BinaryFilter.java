@@ -11,6 +11,7 @@ class BinaryFilter{
             magic = "10101";
         }
         System.out.println(magic);
+        sc.close();
     }
 
     public static boolean isBinary(String message){

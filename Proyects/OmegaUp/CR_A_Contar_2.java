@@ -20,5 +20,6 @@ class CR_A_Contar_2{
 
         int result = checker(text);
         System.out.println(result);
+        sc.close();
     }
 }

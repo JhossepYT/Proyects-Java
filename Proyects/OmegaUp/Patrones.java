@@ -15,6 +15,7 @@ class Patrones{
             if(j == patronL){
                 int startPosition = i + 1;
                 System.out.println(startPosition);
+                sc.close();
             }
         }
     }

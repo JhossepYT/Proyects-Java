@@ -17,6 +17,7 @@ class TheHiddenKey {
         
         String result = p + " - " + o;
         System.out.println(result);
+        sc.close();
     }
     
     public static String calculateP(int n, String input) {

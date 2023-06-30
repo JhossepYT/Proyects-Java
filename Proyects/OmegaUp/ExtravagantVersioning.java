@@ -48,6 +48,7 @@ class ExtravagantVersioning{
             String version = sc.nextLine();
             int decimal = romanToDecimal(version);
             System.out.println(decimal);
+            sc.close();
         }
     }
 }

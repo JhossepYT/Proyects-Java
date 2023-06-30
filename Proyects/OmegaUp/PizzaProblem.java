@@ -18,5 +18,6 @@ class PizzaProblem{
         }else{
             System.out.println("pepperoni");
         }
+        sc.close();
     }
 }

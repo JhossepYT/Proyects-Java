@@ -22,5 +22,6 @@ class ParityBit{
         }
         String result = secuencia + bitdeparidad;
         System.out.println(result);
+        sc.close();
     }
 }
