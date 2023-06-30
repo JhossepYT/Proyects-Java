@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ParityBit",
+            "request": "launch",
+            "mainClass": "ParityBit",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "PizzaProblem",
+            "request": "launch",
+            "mainClass": "PizzaProblem",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "BinaryFilter",
+            "request": "launch",
+            "mainClass": "BinaryFilter",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "TheHiddenKey",
+            "request": "launch",
+            "mainClass": "TheHiddenKey",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "CR_A_Contar_2",
+            "request": "launch",
+            "mainClass": "CR_A_Contar_2",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "ExtravagantVersioning",
+            "request": "launch",
+            "mainClass": "ExtravagantVersioning",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "Prob10",
             "request": "launch",
             "mainClass": "Prob10",
