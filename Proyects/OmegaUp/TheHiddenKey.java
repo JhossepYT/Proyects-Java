@@ -1,47 +1,52 @@
 import java.util.*;
-class TheHiddenKey{
-
-    public static String encodeString(int n, String str){
-        String result = "";
-
-        for (int j = 0; j < n; j++){
-            int sum = 0;
-            for(int i = j; i < str.length(); i += n){
-                sum += str.charAt(i) - 'A' + 1;
-            }
-            int digit = (sum % 10) + 1;
-            result += (char) (digit + '0');
-        }
-        return result;
-    }
-
-    public static String decodeString(int n, String str){
-        String result = "";
-
-        for(int i = 0; i < n; i++){
-            int digit = str.charAt(i) - '0' - 1;
-            char letter = (char)(digit + 'A');
-            result += letter;
-        }
-        return result;
-    }
-
-        public static void main(String[] args){
+class TheHiddenKey {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        String firstLine = sc.nextLine();
-        int firstN = Integer.parseInt(firstLine.substring(1));
-
-        String secondLine = sc.nextLine();
-
-        String thirdLine = sc.nextLine();
-        int secondN = Integer.parseInt(thirdLine.substring(1));
-
-        String fourthLine = sc.nextLine();
-
-        String encodedString = encodeString(firstN, secondLine);
-        String decodedString = decodeString(secondN, fourthLine);
-
-        System.out.println(encodedString + "-" + decodedString);
+        String n1Line = sc.nextLine();
+        String l1Line = sc.nextLine();
+        String n2Line = sc.nextLine();
+        String l2Line = sc.nextLine();
+        
+        int n1 = Integer.parseInt(n1Line.substring(2));
+        String l1 = l1Line.substring(2);
+        int n2 = Integer.parseInt(n2Line.substring(2));
+        String l2 = l2Line.substring(2);
+        
+        String p = calculateP(n1, l1);
+        String o = calculateO(n2, l2);
+        
+        String result = p + " - " + o;
+        System.out.println(result);
+    }
+    
+    public static String calculateP(int n, String input) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < input.length(); i += n) {
+            String substring = input.substring(i, i + n);
+            int sum = 0;
+            for (char c : substring.toCharArray()) {
+                int value = c - 'A' + 1;
+                sum += value;
+            }
+            int digit = (sum + 1) % 10;
+            sb.append(digit);
+        }
+        return sb.toString();
+    }
+    
+    public static String calculateO(int n, String input) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < input.length(); i += n) {
+            String substring = input.substring(i, i + n);
+            int sum = 0;
+            for (char c : substring.toCharArray()) {
+                int value = c - 'A' + 1;
+                sum += value;
+            }
+            int digit = (sum + 1) % 10;
+            char letter = (char) (digit + 'A' - 1);
+            sb.append(letter);
+        }
+        return sb.toString();
     }
 }

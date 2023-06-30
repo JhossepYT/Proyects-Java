@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PatternSearch",
+            "request": "launch",
+            "mainClass": "PatternSearch",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Patrones",
+            "request": "launch",
+            "mainClass": "Patrones",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "ParityBit",
             "request": "launch",
             "mainClass": "ParityBit",
