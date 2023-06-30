@@ -1,9 +1,9 @@
 import java.util.*;
-class Final{
+class Raw{
     private String[] libros;
     private boolean[] disponibilidad;
 
-    public Final(){
+    public Raw(){
         libros = new String[]{"Libro 1", "Libro 2", "Libro 3", "Libro 4", "Libro 5"};
         disponibilidad = new boolean[]{true, true, false, true, false};
     }
@@ -34,7 +34,7 @@ class Final{
     }
 
     public static void main(String[] args) {
-        Final biblioteca = new Final();
+        Raw biblioteca = new Raw();
         Scanner scanner = new Scanner(System.in);
 
         biblioteca.mostrarListaLibros();
