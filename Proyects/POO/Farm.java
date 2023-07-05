@@ -1,6 +1,6 @@
 import java.util.*;
-public class Farm {
-  public static void main(String[] args) {
+class Farm{
+  public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     Pato donald = new Pato("cuack", false, "black", 300, 0.5);
 
