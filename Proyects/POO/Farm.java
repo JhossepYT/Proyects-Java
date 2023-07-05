@@ -10,5 +10,6 @@ public class Farm {
     System.out.println("Color " + donald.getColor());
     System.out.println("Edad " + donald.getAge());
     System.out.println("Tamaño " + donald.getSize());
+    sc.close();
   }
 }
