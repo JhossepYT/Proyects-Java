@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Factorial_Sin_Metodos",
+            "request": "launch",
+            "mainClass": "Factorial_Sin_Metodos",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Factorial_Con_Metodos",
+            "request": "launch",
+            "mainClass": "Factorial_Con_Metodos",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Farm",
+            "request": "launch",
+            "mainClass": "Farm",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "ConversionString",
             "request": "launch",
             "mainClass": "ConversionString",
