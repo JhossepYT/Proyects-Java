@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Exercise07",
+            "request": "launch",
+            "mainClass": "Exercise07",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Exercise06",
+            "request": "launch",
+            "mainClass": "Exercise06",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Exercise05",
+            "request": "launch",
+            "mainClass": "Exercise05",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Exercise02",
+            "request": "launch",
+            "mainClass": "Exercise02",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Exercise01",
+            "request": "launch",
+            "mainClass": "Exercise01",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Exercise03",
+            "request": "launch",
+            "mainClass": "Exercise03",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "xD",
+            "request": "launch",
+            "mainClass": "xD",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Exercise04",
+            "request": "launch",
+            "mainClass": "Exercise04",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "ChessBoard",
+            "request": "launch",
+            "mainClass": "ChessBoard",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Test2",
+            "request": "launch",
+            "mainClass": "Test2",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Clean",
+            "request": "launch",
+            "mainClass": "Clean",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Fila1",
+            "request": "launch",
+            "mainClass": "Fila1",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "Factorial_Sin_Metodos",
             "request": "launch",
             "mainClass": "Factorial_Sin_Metodos",
