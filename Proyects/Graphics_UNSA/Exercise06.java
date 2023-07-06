@@ -5,7 +5,7 @@ class Exercise06{
         Picture casillaBlanca = Picture.casilleroBlanco();
         Picture fila = casillaBlanca.alLado(casillaBlanca.invertir()).repetirH(4);
         Picture filaInvertida = fila.invertir();
-        Picture tablero = fila.encima(filaInvertida).repetirV(2);
+        Picture tablero = filaInvertida.encima(fila).repetirV(2);
 
         // Crear las piezas //
         Picture torre = Picture.torre();
@@ -16,14 +16,15 @@ class Exercise06{
 
         // Superponer las fichas blancas al tablero //
         Picture pieces = torre.alLado(caballo).alLado(alfil).alLado(dama).alLado(rey).alLado(alfil).alLado(caballo).alLado(torre);
-        Picture whiteline = pieces.superponer(fila);
-        Picture blackline = pieces.superponer(filaInvertida);
+        Picture piecesDark = pieces.invertir();
+        Picture whiteline = pieces.superponer(filaInvertida);
+        Picture blackline = piecesDark.superponer(fila);
 
 
         // Fila de Peones //
         Picture peones = Picture.peon().repetirH(8);
         Picture peonesInvertidos = peones.invertir();
-        Picture filaPeones = peones.superponer(tablero.invertir());
+        Picture filaPeones = peones.superponer(fila);
         Picture filaPeonesInvertidos = peonesInvertidos.superponer(tablero);
 
         // Imprimir complete chess //

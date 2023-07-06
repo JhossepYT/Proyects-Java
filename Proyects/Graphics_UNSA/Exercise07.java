@@ -13,14 +13,14 @@ class Exercise07{
         Picture damaB = d.superponer(b);
 
         // Build one solution for Eight Queens puzzle //
-        Picture f1 = wB.repetirH(2).alLado(w).alLado(damaB).alLado(wB);
-        Picture f2 = bW.alLado(b).alLado(damaW).alLado(bW.repetirH(2));
-        Picture f3 = wB.repetirH(3).alLado(damaW).alLado(b);
-        Picture f4 = damaB.alLado(wB.repetirH(3)).alLado(w);
-        Picture f5 = wB.repetirH(3).alLado(w).alLado(damaB);
-        Picture f6 = b.alLado(damaW).alLado(bW.repetirH(3));
-        Picture f7 = wB.repetirH(2).alLado(damaW).alLado(bW).alLado(b);
-        Picture f8 = bW.alLado(damaB).alLado(wB.repetirH(2)).alLado(w);
+        Picture f1 = bW.repetirH(2).alLado(b).alLado(damaW).alLado(bW);
+        Picture f2 = wB.alLado(w).alLado(damaB).alLado(wB.repetirH(2));
+        Picture f3 = bW.repetirH(3).alLado(damaB).alLado(w);
+        Picture f4 = damaW.alLado(bW.repetirH(3)).alLado(b);
+        Picture f5 = bW.repetirH(3).alLado(b).alLado(damaW);
+        Picture f6 = w.alLado(damaB).alLado(wB.repetirH(3));
+        Picture f7 = bW.repetirH(2).alLado(damaB).alLado(wB).alLado(w);
+        Picture f8 = wB.alLado(damaW).alLado(bW.repetirH(2)).alLado(b);
 
         // Organizar para que no quede feo :) //
         Picture SuperiorHalf = f1.encima(f2.encima(f3.encima(f4)));
