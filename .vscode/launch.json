@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PAN",
+            "request": "launch",
+            "mainClass": "PAN",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "LetrasUPRG",
+            "request": "launch",
+            "mainClass": "LetrasUPRG",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Paint",
+            "request": "launch",
+            "mainClass": "Paint",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "N_E_C_S",
+            "request": "launch",
+            "mainClass": "N_E_C_S",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "O_D_L_Q",
+            "request": "launch",
+            "mainClass": "O_D_L_Q",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Leo",
+            "request": "launch",
+            "mainClass": "Leo",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Leo2",
+            "request": "launch",
+            "mainClass": "Leo2",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "LeonardoTheTurtle",
+            "request": "launch",
+            "mainClass": "LeonardoTheTurtle",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "Exercise05_Fix",
             "request": "launch",
             "mainClass": "Exercise05_Fix",
