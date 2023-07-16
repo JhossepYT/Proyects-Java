@@ -37,7 +37,7 @@ class PAN {
          LetrasUPRG.letraP(pablito);
          N_E_C_A_S.char_A(pablito2, 200,200,0);
          Leo.pintarFoto(win, 170, 95);
-         //O_D_L_Q.letraD(pablito3, 105, 0);//
+         O_D_L_Q.letraD(pablito3, 105, 0);
          Logo.pintarImagen(win, pablito4,6, 950,0 ,80);
          LettersYHB.workSlv(pablito5, 0, 0, LettersYHB.letterY, 15);//
          M_I_T_Z.letraZ(pablito6, 110, 0, 100);
