@@ -1,6 +1,6 @@
 import java.awt.Color;
 import galapagos.*;
-class N_E_A_S {
+class N_E_C_A_S {
     //El ancho del pincel, es 3 a 2 con las unidades
     public static void main(String[] args) {
         TurtleDrawingWindow playground = new TurtleDrawingWindow();
