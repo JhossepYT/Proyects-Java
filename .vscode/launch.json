@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AlLadoKaboom",
+            "request": "launch",
+            "mainClass": "AlLadoKaboom",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "FinalProyectTest",
+            "request": "launch",
+            "mainClass": "FinalProyectTest",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "Main2",
             "request": "launch",
             "mainClass": "Main2",
