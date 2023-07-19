@@ -3,7 +3,6 @@ class AlLadoKaboom {
     public static void main(String[] args) {
         Picture caballo = Picture.caballo();
         Picture whiteCell = Picture.casilleroBlanco();
-        Picture blackCell = whiteCell.invertir();
         Picture peon = Picture.peon();
         //Graphics p = new Graphics(Picture.alfil().encima(blackCell).alLado(Picture.peon().superponer(whiteCell).encima(blackCell)).repetirV(4).repetirH(4));
         //Graphics display = new Graphics(Picture.alfil().encima(blackCell).alLado(Picture.peon().superponer(whiteCell)).repetirV(4).repetirH(4));
