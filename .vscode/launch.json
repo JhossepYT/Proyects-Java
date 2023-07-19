@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FizzBuzz",
+            "request": "launch",
+            "mainClass": "FizzBuzz",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "AlLadoKaboom",
             "request": "launch",
             "mainClass": "AlLadoKaboom",
