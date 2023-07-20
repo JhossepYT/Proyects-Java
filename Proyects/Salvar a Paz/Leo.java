@@ -50,7 +50,7 @@ public class Leo{
   }
 
   public static void pintarColumna(TurtleDrawingWindow lienzo, Turtle turtleVinci, SimpleImage img, int x, int imageHeight) {
-    turtleVinci.speed(10); // Ajusta la velocidad fuera del bucle
+    turtleVinci.speed(1); // Ajusta la velocidad fuera del bucle
 
     for (int y = 0; y < imageHeight; y++) {
       Pixel px = img.getPixel(x, y);

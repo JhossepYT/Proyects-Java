@@ -19,9 +19,8 @@ public class LetrasUPRG {
 	}
 	
 	public static void letraU(Turtle u) {
-		u.penColor(Color.BLACK);
-		u.penSize(6); u.hide();
-		u.speed(1900);
+		u.penSize(9); u.hide();
+		u.speed(4000);
 		u.penUp(); u.turn(90); u.move(50); u.turn(180);
 		u.penDown();
 		//1ra columna
@@ -47,9 +46,9 @@ public class LetrasUPRG {
 	}
 	
 	public static void letraP(Turtle p) {
-		p.penColor(Color.ORANGE);
-		p.penSize(6); p.hide();
-		p.speed(1500);
+		p.penColor(Color.green);
+		p.penSize(9); p.hide();
+		p.speed(4000);
 		//columna vertebral xd
 		for(int i = 0; i < 12; i++) {
 			cuadraditoXd(p);
@@ -79,8 +78,8 @@ public class LetrasUPRG {
 	
 	public static void letraR(Turtle r) {
 		r.penColor(Color.GREEN);
-		r.penSize(6); r.hide();
-		r.speed(1500);
+		r.penSize(9); r.hide();
+		r.speed(4000);
 		for(int i = 0; i < 12; i++) {
 			cuadraditoXd(r);
 			r.turn(90); r.move(5); r.turn(-90);
@@ -113,9 +112,8 @@ public class LetrasUPRG {
 		r.penUp(); r.turn(90); r.move(10); r.penDown(); 
 	}
 	public static void letraG(Turtle g) {
-		g.penColor(Color.MAGENTA);
-		g.penSize(6); g.hide();
-		g.speed(1500);
+		g.penSize(9); g.hide();
+		g.speed(4000);
 		g.penUp(); g.move(40); g.turn(90); g.move(30);
 		g.turn(90); g.move(24); g.turn(180); g.penDown();
 		// colita

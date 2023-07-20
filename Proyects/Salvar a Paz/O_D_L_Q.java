@@ -6,13 +6,15 @@ public class O_D_L_Q{
         int i = 0;
         while(i <= 10){
             t.jumpTo(x, y);
-            t.move(10);
+            t.move(2);
             y++;
             i++;
         }
     }
     public static void letraO(Turtle t, int x , int y){
         // El (x, y) son las coordenadas de inicio de la letra, inicia en la esquina inferior izquierda//
+        t.speed(800);
+        t.penSize(14);
         t.jumpTo(x, y);
         int x1 = x;
         int y1 = y + 10;
@@ -99,28 +101,28 @@ public class O_D_L_Q{
         int y1 = y;
         for(int i = 0; i < 5 ; i++){
             cuadrado(t, x1, y1);
-            y1+= 10;
+            y1+= 8;
         }
         t.jumpTo(x + 10, y);
         y1 = y;
         x1 = x + 10;
         for(int i = 0; i < 1; i++){
             cuadrado(t, x1, y1);
-            y1+= 10;
+            y1+= 6;
         }
         t.jumpTo(x + 20, y);
         y1 = y;
         x1 = x + 20;
         for(int i = 0; i < 1; i++){
             cuadrado(t, x1, y1);
-            y1+= 10;
+            y1+= 6;
         }
         t.jumpTo(x + 30, y + 10);
         y1 = y;
         x1 = x + 30;
         for(int i = 0; i < 1; i++){
             cuadrado(t, x1, y1);
-            y1+= 10;
+            y1+= 6;
         }
     }
     public static void letraQ(Turtle t, int x , int y){

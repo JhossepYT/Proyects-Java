@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "juan",
+            "request": "launch",
+            "mainClass": "juan",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Actividad",
+            "request": "launch",
+            "mainClass": "Actividad",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Alfiles",
+            "request": "launch",
+            "mainClass": "Alfiles",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "N_E_C_A_S",
+            "request": "launch",
+            "mainClass": "N_E_C_A_S",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "M_I_T_Z",
+            "request": "launch",
+            "mainClass": "M_I_T_Z",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "Mensaje",
+            "request": "launch",
+            "mainClass": "Mensaje",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "PAN2",
+            "request": "launch",
+            "mainClass": "PAN2",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "FizzBuzz",
             "request": "launch",
             "mainClass": "FizzBuzz",

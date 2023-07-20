@@ -31,7 +31,8 @@ class N_E_C_A_S {
         //Color pincel
         Color color = new Color(r, g, b);
         donatelo.penColor(color);
-        donatelo.penSize(15);
+        donatelo.hide();
+        donatelo.penSize(17);
         //primer palo
         donatelo.turn(90);
         donatelo.move(30);
@@ -62,7 +63,6 @@ class N_E_C_A_S {
 
         //Puente
         donatelo.penDown();
-        donatelo.show();
         donatelo.move(30);
 
         //Moverse a siguiente origen
@@ -73,11 +73,12 @@ class N_E_C_A_S {
         donatelo.move(20);
         donatelo.penDown();
 
-
     }
     public static void char_N (Turtle donatelo, int r, int g, int b) {
         Color color = new Color(r, g, b);
+        donatelo.hide();
         donatelo.penColor(color);
+        donatelo.penSize(17);
         //primer palo
         donatelo.turn(90);
         donatelo.move(40);
@@ -121,6 +122,8 @@ class N_E_C_A_S {
     public static void char_E (Turtle donatelo, int r, int g, int b) {
         Color color = new Color(r, g, b);
         donatelo.penColor(color);
+        donatelo.hide();
+        donatelo.penSize(17);
         //primer palo
         donatelo.turn(90);
         donatelo.move(40);
@@ -151,6 +154,8 @@ class N_E_C_A_S {
     public static void char_C (Turtle donatelo, int r, int g, int b) {
         Color color = new Color(r, g, b);
         donatelo.penColor(color);
+        donatelo.hide();
+        donatelo.penSize(19);
         //traslado
         donatelo.penUp();
         donatelo.move(30);
@@ -203,7 +208,8 @@ class N_E_C_A_S {
     public static void char_S (Turtle donatelo, int r, int g, int b) { 
         Color color = new Color(r, g, b);
         donatelo.penColor(color);
-
+        donatelo.hide();
+        donatelo.penSize(17);
         //base:
         donatelo.move(20);
         //traslado
@@ -250,6 +256,8 @@ class N_E_C_A_S {
         donatelo.move(40);
         donatelo.turn(90);
         donatelo.penDown();
+
+        
     
     }
 }

@@ -17,7 +17,7 @@ public class Logo {
 
         Turtle leoDaTurtle = new Turtle(Turtle.NO_DEFAULT_WINDOW);
         
-        pintarImagen(lienzo, leoDaTurtle, 4, 2000, -200, 100);
+        pintarImagen(lienzo, leoDaTurtle, 4, 200, -200, 100);
 
     }
 
