@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10%;
+  font-size: 1.4rem;
+  background-color: #f4f4f4;
+}
+
+.rectangulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #e67e22;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 8px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: #e67e22;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff9933;
+}
+
+.res {
+  font-weight: bold;
+  font-size: 1.6rem;
+}

@@ -3,27 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  
+  <title>Calculadora 2.0</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <button id="01" onclick="queryData()">
-    Ingresar datos
-  </button>
-  <button  id="02" onclick="sumar()">
-    Sumar
-  </button>
-  <button id="03" onclick="restar()">
-    Restar
-  </button>
-  <button id="04" onclick="multiplicar()">
-    Multiplicar
-  </button>
-  <button id="05" onclick="dividir()">
-    Dividir
-  </button>
-  <div id="06" onclick="">
-    resultado: 0
+  <div class="rectangulo">
+    <h2>Calculator</h2>
+    <label for="num1">First number :)</label>
+    <input type="number" id="num1">
+    <label for="num2">Second number:</label>
+    <input type="number" id="num2">
+    <button class="operacion" onclick="sumar()">Addition</button>
+    <button class="operacion" onclick="restar()">Subtraction</button>
+    <button class="operacion" onclick="multiplicar()">Multiplication</button>
+    <button class="operacion" onclick="dividir()">Division</button>
+    <div id="06" class="res">Result:</div>
   </div>
   <script src="./script.js"></script>
 </body>
