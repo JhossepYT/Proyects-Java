@@ -28,7 +28,7 @@ function multiplicar() {
 function dividir() {
   const num1 = Number(inputNum1.value);
   const num2 = Number(inputNum2.value);
-  if (num2 === 0 || num1 === 0) {
+  if (num2 === 0) {
     res = "The division by 0 is not defined gracioson xD"
   } else {
     res = num1 / num2;
