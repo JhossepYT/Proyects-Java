@@ -10,6 +10,17 @@ body {
   background-color: #f4f4f4; /* Color de fondo del cuerpo */
 }
 
+
+#num1,#num2{
+  width: 25%; /*Permite modificar el width del cuadro donde ingreso los numeros*/
+  font-size: 1.2rem;
+  padding: 8px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
 /* Estilos para el contenedor del rectángulo */
 .rectangulo {
   display: flex; /* Mostrar los elementos como una fila */
@@ -28,11 +39,6 @@ body {
 h2 {
   font-size: 1.8rem; /* Tamaño de fuente para el título */
   margin: 0; /* Elimina el margen predeterminado del título */
-}
-
-/* Estilos para las etiquetas label */
-label {
-  font-size: 1.2rem; /* Tamaño de fuente para las etiquetas */
 }
 
 /* Estilos para los campos de entrada input */
