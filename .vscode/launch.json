@@ -4,6 +4,49 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Farm",
+            "request": "launch",
+            "mainClass": "Farm",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Logo",
+            "request": "launch",
+            "mainClass": "Logo",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "M_I_T_Z",
+            "request": "launch",
+            "mainClass": "M_I_T_Z",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "N_E_C_A_S",
+            "request": "launch",
+            "mainClass": "N_E_C_A_S",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Mensaje2",
+            "request": "launch",
+            "mainClass": "Mensaje2",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Mensaje",
+            "request": "launch",
+            "mainClass": "Mensaje",
+            "projectName": "Proyects_96517db8"
+        },
         {
             "type": "java",
             "name": "juan",

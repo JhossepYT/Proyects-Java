@@ -22,9 +22,9 @@ class Mensaje{
         pablito3.speed(600);
         pablito4.speed(140);
         pablito5.speed(300);
+        pablito7.penColor(Color.white);
         pablito7.speed(10000);
         pablito6.speed(10);
-        pablito7.penColor(Color.white);
 	    win.add(pablito7);
         win.add(pablito8);
         win.add(pablito2);
