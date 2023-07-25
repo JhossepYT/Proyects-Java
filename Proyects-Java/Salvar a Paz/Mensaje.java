@@ -47,8 +47,8 @@ class Mensaje{
         red[2] = 0;
         red[3] = 0;
         int blue[] = new int[4];
-        blue[1] = 60;
-        blue[2] = 200;
+        blue[1] = 0;
+        blue[2] = 191;
         blue[3] = 255;
         int yellow[] = new int[4];
         yellow[1] = 255;
@@ -113,7 +113,7 @@ class Mensaje{
         pablito4.penColor(new Color(blue[1], blue[2], blue[3]));
         LetrasUPRG.letraR(pablito4, blue[1], blue[2], blue[3]);    
         M_I_T_Z.letraT(pablito4, 350, -160, 1200, blue[1], blue[2], blue[3]); 
-        pablito4.jumpTo(416, -145);
+        pablito4.jumpTo(416, -136);
         pablito4.turn(90);
         N_E_C_A_S.char_A(pablito4, yellow[1], yellow[2], yellow[3]);
         pablito4.jumpTo(490, -145);
@@ -142,7 +142,9 @@ class Mensaje{
         pablito5.jumpTo(455, -215);
         M_I_T_Z.letraT(pablito5, 450, -225, 1200, red[1], red[2], red[3]);
         O_D_L_Q.letraO(pablito5, 515, -220,green[1], green[2], green[3]);
-        //Y
+        pablito5.jumpTo(580, -210);
+        pablito5.turn(90);
+        N_E_C_A_S.char_Y(pablito5, green[1], green[2], green[3]);
         carlitos2.jumpTo(0, -300);
         carlitos2.penColor(new Color(yellow[1], yellow[2], yellow[3]));
         LetrasUPRG.letraP(carlitos2, green[1], green[2], green[3]);
@@ -191,7 +193,7 @@ class Mensaje{
         pablito8.jumpTo(580, -375);
         pablito8.turn(90);    
         N_E_C_A_S.char_N(pablito8, blue[1], blue[2], blue[3]);
-        Leo.pintarFoto(win, 650, -225);
-        Logo.pintarImagen(win, carlitos,8, 800,750 ,0);
+        Leo.pintarFoto(win, 670, -230);
+        Logo.pintarImagen(win, carlitos,6, 800,700 ,10);
     }
 }

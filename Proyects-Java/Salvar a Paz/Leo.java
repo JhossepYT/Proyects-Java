@@ -57,7 +57,7 @@ public class Leo{
       int avg = (px.getRed() + px.getGreen() + px.getBlue()) / 3 + 20;
       Color color = new Color(avg, avg, avg);
       turtleVinci.penColor(color);
-      turtleVinci.speed(1500);
+      turtleVinci.speed(1000);
       turtleVinci.move(2);
       turtleVinci.bodyColor(new Color((x + y) % 255, (y * x) % 255, (255 + x * 3 + y) % 255));
     }

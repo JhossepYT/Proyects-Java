@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IneedOneTimer",
+            "request": "launch",
+            "mainClass": "IneedOneTimer",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Leo",
+            "request": "launch",
+            "mainClass": "Leo",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
             "name": "Octagono",
             "request": "launch",
             "mainClass": "Octagono",

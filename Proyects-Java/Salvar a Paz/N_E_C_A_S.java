@@ -25,6 +25,7 @@ class N_E_C_A_S {
         char_N(donatelo, 220, 10, 50);
         char_E(donatelo, 0, 100, 200);
         char_S(donatelo, 0, 150, 150);
+        char_Y(donatelo, 100, 0, 0);
         
     }
     public static void char_A(Turtle donatelo, int r, int g, int b) {
@@ -257,7 +258,65 @@ class N_E_C_A_S {
         donatelo.turn(90);
         donatelo.penDown();
 
-        
+    }
+
+        public static void char_Y (Turtle donatelo, int r, int g, int b) { 
+            Color color = new Color(r, g, b);
+            donatelo.penColor(color);
+            
+            // Desplazarse para la colita
+            donatelo.hide();
+            donatelo.penSize(17);
+            donatelo.penUp();
+            donatelo.move(10);
+    
+            //Colita base
+            donatelo.penDown();
+            donatelo.move(10);
+    
+            //Despalzarse para el cuerpo
+    
+            donatelo.penUp();
+            donatelo.move(10);
+            donatelo.turn(90);
+            donatelo.move(10);
+            donatelo.penDown();
+    
+            //cuerpo
+    
+            donatelo.move(30);
+    
+            //Desplazamaniento a cabeza
+    
+            donatelo.penUp();
+            donatelo.turn(90);
+            donatelo.move(30);
+            donatelo.turn(90);
+            donatelo.penDown();
+    
+            //Cabeza
+            donatelo.move(10);
+    
+            //desplazamiento a medio
+            donatelo.penUp();
+            donatelo.move(10);
+            donatelo.turn(90);
+            donatelo.move(10);
+            donatelo.penDown();
+    
+            //Cuerpo
+    
+            donatelo.move(20);
+    
+            //desplazamiento a nueva base
+    
+            donatelo.penUp();
+            donatelo.turn(-90);
+            donatelo.move(20);
+            donatelo.turn(90);
+            donatelo.move(20);
+            donatelo.penDown();
+    
     
     }
 }
