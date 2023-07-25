@@ -26,8 +26,8 @@ class PAN2 {
          pablito7.jumpTo(0, -1000);
          pablito7.move(2000);
 	     win.setVisible(true);
-         LetrasUPRG.letraP(pablito);
+         LetrasUPRG.letraP(pablito,0,0,0);
          N_E_C_A_S.char_A(pablito2, 200,200,0);
-         M_I_T_Z.letraZ(pablito6, 110, 0, 100);
+         M_I_T_Z.letraZ(pablito6, 110, 0, 100, 0, 250, 0);
     }
 }

@@ -4,11 +4,11 @@ import java.awt.Color;
 public class M_I_T_Z{
     public static void main(String[] args) {
         Turtle t = new Turtle();
-        letraT(t,0,0, 0);
+        letraT(t,0,0, 0, 0, 0, 0);
     }
-    public static void letraI(Turtle t,int x ,int y, int v){
+    public static void letraI(Turtle t,int x ,int y, int v, int b, int n, int m){
         
-        t.penColor(new Color(0, 0, 255));
+        t.penColor(new Color(b, n, m));
         t.hide();
         t.jumpTo(x,y);
         t.speed(v);
@@ -21,9 +21,9 @@ public class M_I_T_Z{
         t.turn(-90);
         t.move(30);
     }
-    public static void letraT(Turtle t,int x ,int y, int v){
+    public static void letraT(Turtle t,int x ,int y, int v, int b, int n, int m){
         
-        t.penColor(new Color(0, 200, 0));
+        t.penColor(new Color(b, n, m));
         t.hide();
         t.jumpTo(x,y);
         t.speed(v);
@@ -34,9 +34,9 @@ public class M_I_T_Z{
         t.turn(-90);
         t.move(35);
     }
-    public static void letraM(Turtle t,int x ,int y, int v){
+    public static void letraM(Turtle t,int x ,int y, int v, int b, int n, int m){
         
-        t.penColor(new Color(0, 255, 0));
+        t.penColor(new Color(b, n, m));
         t.hide();
         t.jumpTo(x+5,y);
         t.speed(v);
@@ -51,9 +51,9 @@ public class M_I_T_Z{
         t.move(45);
 
     }
-        public static void letraZ(Turtle t,int x ,int y, int v){
+        public static void letraZ(Turtle t,int x ,int y, int v, int b, int n, int m){
         
-        t.penColor(new Color(0, 28, 128));
+        t.penColor(new Color(b, n, m));
         t.hide();
         t.jumpTo(x+32,y+5);
         t.speed(v);

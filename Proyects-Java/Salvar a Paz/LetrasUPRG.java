@@ -12,13 +12,15 @@ public class LetrasUPRG {
 	     
 	     //Lo puedes modificar para que se acomode, es que si esta en (0, 0) se desborda xd.
 	     pablito.jumpTo(2, 0);
-	     LetrasUPRG.letraU(pablito);
-	     LetrasUPRG.letraP(pablito);
-	     LetrasUPRG.letraR(pablito);
-	     LetrasUPRG.letraG(pablito);
+	     LetrasUPRG.letraU(pablito,0,0,0);
+	     LetrasUPRG.letraP(pablito,0,0,0);
+	     LetrasUPRG.letraR(pablito,0,0,0);
+	     LetrasUPRG.letraG(pablito,0,0,0);
 	}
 	
-	public static void letraU(Turtle u) {
+	public static void letraU(Turtle u, int r, int g, int b) {
+        Color color = new Color(r, g, b);
+		u.bodyColor(color);
 		u.penSize(9); u.hide();
 		u.speed(4000);
 		u.penUp(); u.turn(90); u.move(50); u.turn(180);
@@ -45,8 +47,9 @@ public class LetrasUPRG {
 		u.penUp(); u.turn(-90); u.move(50); u.turn(90); u.move(15); u.penDown();
 	}
 	
-	public static void letraP(Turtle p) {
-		p.penColor(Color.green);
+	public static void letraP(Turtle p, int r, int g, int b) {
+        Color color = new Color(r, g, b);
+		p.bodyColor(color);
 		p.penSize(9); p.hide();
 		p.speed(4000);
 		//columna vertebral xd
@@ -76,8 +79,9 @@ public class LetrasUPRG {
 		p.penUp(); p.turn(90); p.move(30); p.turn(90); p.move(46); p.penDown();
 	}
 	
-	public static void letraR(Turtle r) {
-		r.penColor(Color.GREEN);
+	public static void letraR(Turtle r, int j, int g, int b) {
+        Color color = new Color(j, g, b);
+		r.bodyColor(color);
 		r.penSize(9); r.hide();
 		r.speed(4000);
 		for(int i = 0; i < 12; i++) {
@@ -111,7 +115,9 @@ public class LetrasUPRG {
 		//pisicionar 
 		r.penUp(); r.turn(90); r.move(10); r.penDown(); 
 	}
-	public static void letraG(Turtle g) {
+	public static void letraG(Turtle g, int r, int o, int b) {
+        Color color = new Color(r, o, b);
+		g.bodyColor(color);
 		g.penSize(9); g.hide();
 		g.speed(4000);
 		g.penUp(); g.move(40); g.turn(90); g.move(30);

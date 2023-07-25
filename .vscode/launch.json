@@ -4,7 +4,27 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Octagono",
+            "request": "launch",
+            "mainClass": "Octagono",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Test6",
+            "request": "launch",
+            "mainClass": "Test6",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Test2",
+            "request": "launch",
+            "mainClass": "Test2",
+            "projectName": "Proyects_96517db8"
+        },
         {
             "type": "java",
             "name": "Farm",

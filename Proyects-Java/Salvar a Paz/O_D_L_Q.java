@@ -11,8 +11,10 @@ public class O_D_L_Q{
             i++;
         }
     }
-    public static void letraO(Turtle t, int x , int y){
+    public static void letraO(Turtle t, int x , int y, int r, int g, int b){
         // El (x, y) son las coordenadas de inicio de la letra, inicia en la esquina inferior izquierda//
+        Color color = new Color(r, g, b);
+        t.penColor(color);
         t.speed(800);
         t.penSize(14);
         t.jumpTo(x, y);
@@ -49,13 +51,13 @@ public class O_D_L_Q{
         t.penColor(color);
         int x = 0;
         int y = 0;
-        letraO(t, x, y);
+        letraO(t, x, y, 0,0,0);
         x += 50;
-        letraD(t, x, y);
+        letraD(t, x, y,60, 200, 255);
         x += 50;
-        letraL(t, x, y);
+        letraL(t, x, y,60, 200, 255);
         x += 50;
-        letraQ(t, x, y);
+        letraQ(t, x, y,60, 200, 255);
     }
     public static void lienzo(TurtleDrawingWindow pintura){
         pintura.setGrid(false);
@@ -63,8 +65,10 @@ public class O_D_L_Q{
         pintura.setOrigin(0, 0);
 
     }
-    public static void letraD(Turtle t, int x , int y){
+    public static void letraD(Turtle t, int x , int y, int r, int g, int b){
         // El (x, y) son las coordenadas de inicio de la letra, inicia en la esquina inferior izquierda//
+        Color color = new Color(r, g, b);
+        t.penColor(color);
         t.jumpTo(x, y);
         int x1 = x;
         int y1 = y;
@@ -94,8 +98,10 @@ public class O_D_L_Q{
             y1+= 10;
         }
     }
-        public static void letraL(Turtle t, int x , int y){
+        public static void letraL(Turtle t, int x , int y, int r, int g, int b){
         // El (x, y) son las coordenadas de inicio de la letra, inicia en la esquina inferior izquierda//
+        Color color = new Color(r, g, b);
+        t.penColor(color);
         t.jumpTo(x, y);
         int x1 = x;
         int y1 = y;
@@ -125,8 +131,10 @@ public class O_D_L_Q{
             y1+= 6;
         }
     }
-    public static void letraQ(Turtle t, int x , int y){
+    public static void letraQ(Turtle t, int x , int y,int r, int g, int b){
         // El (x, y) son las coordenadas de inicio de la letra, inicia en la esquina inferior izquierda//
+        Color color = new Color(r, g, b);
+        t.penColor(color);
         t.jumpTo(x, y);
         int x1 = x;
         int y1 = y + 10;

@@ -86,7 +86,7 @@ public class Logo {
         TurtleDrawingWindow lienzo = new TurtleDrawingWindow();
         lienzo.setResizable(true);
         lienzo.setTitle("Turtle-Vinci");
-        lienzo.setColor(backRound);
+        //lienzo.setColor(backRound);
         lienzo.setVisible(true);
         lienzo.setGrid(cuadricula);
         lienzo.setUnit(zoom);
