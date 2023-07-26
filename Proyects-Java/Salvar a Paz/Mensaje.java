@@ -204,7 +204,7 @@ class Mensaje{
                 Leo.pintarFoto(win, 670, -230);
             }
         };
-    timer.schedule(task, 14500);
+    timer.schedule(task, 7850);
     
     }
 }
