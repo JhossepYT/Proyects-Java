@@ -1,5 +1,7 @@
 import galapagos.*;
 import java.awt.*;
+import java.util.Timer;
+import java.util.TimerTask;
 
 class Mensaje{
     public static void main(String[] args) {
@@ -193,7 +195,16 @@ class Mensaje{
         pablito8.jumpTo(580, -375);
         pablito8.turn(90);    
         N_E_C_A_S.char_N(pablito8, blue[1], blue[2], blue[3]);
-        Leo.pintarFoto(win, 670, -230);
-        Logo.pintarImagen(win, carlitos,6, 800,700 ,10);
+        Logo.pintarImagen(win, carlitos,6, 800,700 ,-30);
+
+        Timer timer = new Timer();
+        TimerTask task = new TimerTask(){
+            @Override
+            public void run(){
+                Leo.pintarFoto(win, 670, -230);
+            }
+        };
+    timer.schedule(task, 14500);
+    
     }
 }
