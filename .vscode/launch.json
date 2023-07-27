@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Arreglo_Bidi2",
+            "request": "launch",
+            "mainClass": "Arreglo_Bidi2",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Alex_la_barba_y_las_pyzzas",
+            "request": "launch",
+            "mainClass": "Alex_la_barba_y_las_pyzzas",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
             "name": "IneedOneTimer",
             "request": "launch",
             "mainClass": "IneedOneTimer",
