@@ -14,5 +14,6 @@ class Alex_la_barba_y_las_pyzzas{
             i++;
         }
         System.out.println(total);
+        sc.close();
     }
 }

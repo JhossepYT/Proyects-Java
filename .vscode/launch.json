@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CarreraDeLargaDistancia",
+            "request": "launch",
+            "mainClass": "CarreraDeLargaDistancia",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Solucion",
+            "request": "launch",
+            "mainClass": "Solucion",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Taximeter",
+            "request": "launch",
+            "mainClass": "Taximeter",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "JuegoDeLaVida",
+            "request": "launch",
+            "mainClass": "JuegoDeLaVida",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "GameofLife",
+            "request": "launch",
+            "mainClass": "GameofLife",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
             "name": "Arreglo_Bidi2",
             "request": "launch",
             "mainClass": "Arreglo_Bidi2",
