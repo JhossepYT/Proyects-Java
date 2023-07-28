@@ -6,6 +6,5 @@ class Mascarillas{
         int b = sc.nextInt();
         System.out.println((a * b) - 1);
         sc.close();
-        a
    }
 }
