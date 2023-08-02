@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Fractales2",
+            "request": "launch",
+            "mainClass": "Fractales2",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Fractales",
+            "request": "launch",
+            "mainClass": "Fractales",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "TorresDeHanoi",
+            "request": "launch",
+            "mainClass": "TorresDeHanoi",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Mes",
+            "request": "launch",
+            "mainClass": "Mes",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
             "name": "CarreraDeLargaDistancia",
             "request": "launch",
             "mainClass": "CarreraDeLargaDistancia",
