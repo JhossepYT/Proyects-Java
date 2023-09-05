@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalculosMentales",
+            "request": "launch",
+            "mainClass": "CalculosMentales",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Encapsulamiento",
+            "request": "launch",
+            "mainClass": "Encapsulamiento",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "VoltearString",
+            "request": "launch",
+            "mainClass": "VoltearString",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "TestImage",
+            "request": "launch",
+            "mainClass": "TestImage",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "AlLadoKaboom",
+            "request": "launch",
+            "mainClass": "AlLadoKaboom",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Exercise07",
+            "request": "launch",
+            "mainClass": "Exercise07",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Exercise06",
+            "request": "launch",
+            "mainClass": "Exercise06",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Exercise01",
+            "request": "launch",
+            "mainClass": "Exercise01",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "TrianguloEquilatero",
+            "request": "launch",
+            "mainClass": "TrianguloEquilatero",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "PAN",
+            "request": "launch",
+            "mainClass": "PAN",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "LetrasUPRG",
+            "request": "launch",
+            "mainClass": "LetrasUPRG",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "ParaElRecuerdo",
+            "request": "launch",
+            "mainClass": "ParaElRecuerdo",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
             "name": "Factorial",
             "request": "launch",
             "mainClass": "Factorial",

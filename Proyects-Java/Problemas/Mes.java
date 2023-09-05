@@ -6,9 +6,10 @@ class Mes{
 
     public static int total(){
         Scanner sc = new Scanner(System.in);
-        final int j = 1;
-        final int s = 2;
-        final int l = 3;
+        final int v = 1;
+        final int l = 2;
+        final int m = 4;
+        final int j = 3;
         int total = 0;
         String dias[] = {"Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"};
 
@@ -18,15 +19,15 @@ class Mes{
             switch (i){
                 case 0: total += x * l;
                         break;
-                case 1: total += x * s;
+                case 1: total += x * l;
                         break;
-                case 2: total += x * j;
+                case 2: total += x * m;
                         break;
                 case 3: total += x * j;
                         break;
-                case 4: total += x * l;
+                case 4: total += x * v;
                         break;
-                case 5: total += x * s;
+                case 5: total += x * l;
                         break; 
             }
         }
