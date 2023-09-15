@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Actividad2",
+            "request": "launch",
+            "mainClass": "Actividad2",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
+            "name": "Actividad1",
+            "request": "launch",
+            "mainClass": "Actividad1",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
             "name": "CalculosMentales",
             "request": "launch",
             "mainClass": "CalculosMentales",
