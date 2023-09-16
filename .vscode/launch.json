@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ejercicio01",
+            "request": "launch",
+            "mainClass": "Ejercicio01",
+            "projectName": "Proyects_96517db8"
+        },
+        {
+            "type": "java",
             "name": "Actividad2",
             "request": "launch",
             "mainClass": "Actividad2",
