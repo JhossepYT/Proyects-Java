@@ -1,5 +1,6 @@
 class Metodo1 {
     private String nombre;
+    private String apellido;
     private int edad;
 
     public void setEdad(int edad){
@@ -16,5 +17,13 @@ class Metodo1 {
 
     public String getNombre(){
         return nombre;
+    }
+
+    public void setApellido(String apellido){
+        this.apellido = apellido;
+    }
+
+    public String getApellido(){
+        return this.apellido;
     }
 }
