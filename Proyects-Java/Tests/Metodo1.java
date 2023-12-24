@@ -18,12 +18,4 @@ class Metodo1 {
     public String getNombre(){
         return nombre;
     }
-
-    public void setApellido(String apellido){
-        this.apellido = apellido;
-    }
-
-    public String getApellido(){
-        return this.apellido;
-    }
 }
