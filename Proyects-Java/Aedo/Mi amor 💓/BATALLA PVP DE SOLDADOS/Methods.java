@@ -61,7 +61,7 @@ class Methods {
                 tablero[x][y] = null;
             } else {
                 tablero[x1][y1] = otroSoldado;
-                System.out.println("El soldado " + otroSoldado.getName() + " en la posición(" + x1 + ", " + y1 + ") gano el combate");
+                System.out.println("El soldado " + otroSoldado.getName() + " en la posición (" + x1 + ", " + y1 + ") gano el combate");
                 // Mover al soldado ganador a la nueva posición
                 otroSoldado.setFila(x1);
                 otroSoldado.setColumna(y1);
