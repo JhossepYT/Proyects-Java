@@ -261,9 +261,11 @@ public class Batalla {
             int sumaVid2 = Methods.calcularSumaVidaEquipo(tablero, 2);
             if (sumaVid1 == 0) {
                 System.out.println("El Ejercito 2 gana la batalla");
+                Methods.mostrarTablero(tablero);
                 gameOver = true;
             } else if (sumaVid2 == 0) {
                 System.out.println("El Ejercito 1 gana la batalla");
+                Methods.mostrarTablero(tablero);
                 gameOver = true;
             }
         }
