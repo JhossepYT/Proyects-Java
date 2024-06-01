@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Nikole_2",
+            "request": "launch",
+            "mainClass": "Nikole_2",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
+            "name": "causita",
+            "request": "launch",
+            "mainClass": "causita",
+            "projectName": "Proyects-Java_3ead9537"
+        },
+        {
+            "type": "java",
             "name": "Ejercicio01",
             "request": "launch",
             "mainClass": "Ejercicio01",
