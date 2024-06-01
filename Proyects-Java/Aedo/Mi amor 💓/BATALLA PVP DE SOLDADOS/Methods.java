@@ -67,7 +67,6 @@ class Methods {
                 otroSoldado.setColumna(y1);
                 otroSoldado.setActHP(otroSoldado.getActHP() + 50);
                 tablero[x][y] = null;
-                Methods.mostrarTablero(tablero);
             }
         }
     }
