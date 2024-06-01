@@ -53,7 +53,7 @@ class Methods {
             if (winRateSoldado > winRateOtroSoldado) {
                 tablero[x1][y1] = soldado;
                 System.out.println(
-                        "El soldado " + soldado.getName() + "en la posición (" + x + ", " + y + ") gano el combate");
+                        "El soldado " + soldado.getName() + " en la posición (" + x + ", " + y + ") gano el combate");
                 // Mover al soldado ganador a la nueva posición
                 soldado.setFila(x1);
                 soldado.setColumna(y1);
