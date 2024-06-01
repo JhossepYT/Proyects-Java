@@ -37,7 +37,7 @@ class Methods {
             soldado.setFila(x1);
             soldado.setColumna(y1);
             tablero[x][y] = null;
-            System.out.println("El soldado" + soldado.getName() + "(" + x + ", " + y + ") se ha movido a (" + x1 + ", "
+            System.out.println("El soldado " + soldado.getName() + "(" + x + ", " + y + ") se ha movido a (" + x1 + ", "
                     + y1 + ")");
         } else if (soldado.getTeam() == otroSoldado.getTeam()) {
             System.out.println("Ya existe un aliado en la ubicación seleccionada");
@@ -47,14 +47,13 @@ class Methods {
             double winRateOtroSoldado = Math.round(calculateWinRate(otroSoldado, soldado));
 
             System.out.println("Porcentaje de winrate del soldado (" + x + ", " + y + "): " + winRateSoldado + "%");
-            System.out
-                    .println("Porcentaje de winrate del soldado (" + x1 + ", " + y1 + "): " + winRateOtroSoldado + "%");
+            System.out.println("Porcentaje de winrate del soldado (" + x1 + ", " + y1 + "): " + winRateOtroSoldado + "%");
 
             // Elegir el real winner
             if (winRateSoldado > winRateOtroSoldado) {
                 tablero[x1][y1] = soldado;
                 System.out.println(
-                        "El soldado" + soldado.getName() + "en la posición (" + x + ", " + y + ") gano el combate");
+                        "El soldado " + soldado.getName() + "en la posición (" + x + ", " + y + ") gano el combate");
                 // Mover al soldado ganador a la nueva posición
                 soldado.setFila(x1);
                 soldado.setColumna(y1);
@@ -62,8 +61,7 @@ class Methods {
                 tablero[x][y] = null;
             } else {
                 tablero[x1][y1] = otroSoldado;
-                System.out.println("El soldado" + otroSoldado.getName() + " en la posición(" + x1 + ", " + y1
-                        + ") gano el combate");
+                System.out.println("El soldado " + otroSoldado.getName() + " en la posición(" + x1 + ", " + y1 + ") gano el combate");
                 // Mover al soldado ganador a la nueva posición
                 otroSoldado.setFila(x1);
                 otroSoldado.setColumna(y1);
