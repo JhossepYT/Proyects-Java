@@ -1,0 +1,42 @@
+.footer {
+  background-color: #004080; /* Color de fondo */
+  border-top: 1px solid #e9ecef; /* Línea superior */
+  padding: 40px 0; /* Aumenta el espaciado superior e inferior */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.footer h5 {
+  font-size: 1.5rem; /* Tamaño de fuente más grande para los encabezados */
+  margin-bottom: 1.5rem; /* Aumenta el margen inferior */
+}
+
+.footer p {
+  font-size: 1.25rem; /* Tamaño de fuente más grande para los párrafos */
+  margin: 0 0 1rem; /* Ajusta el margen para los párrafos */
+}
+
+.footer a {
+  color: #ffffff;
+  font-size: 1.25rem; /* Tamaño de fuente más grande para los enlaces */
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  max-width: 300px; /* Aumenta el tamaño máximo del logo */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-bottom: 20px; /* Aumenta el espacio debajo del logo */
+}
+
+.footer-copy {
+  font-size: 1.25rem; /* Tamaño de fuente más grande para el texto de copyright */
+}
+
+.text-center {
+  text-align: center;
+}

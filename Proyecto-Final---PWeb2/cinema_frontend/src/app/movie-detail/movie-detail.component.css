@@ -1,0 +1,193 @@
+.youtube-video {
+    height: 500px; /* Ajustado la altura del video */
+    margin-top: -25px;
+}
+
+.youtube-video iframe {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.movie-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 200px;
+}
+
+.movie-header {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.movie-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-title {
+    font-size: 3rem;
+    margin: 0;
+    color: #004991;
+}
+
+.movie-meta {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 5px;
+    margin-bottom: 15px; /* Añadido margen inferior para separación del botón */
+}
+
+.buy-button {
+    padding: 8px 15px; /* Ajustado padding para que el botón se vea bien */
+    margin-top: 10px; /* Añadido margen superior para separación del texto */
+}
+
+.movie-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.movie-poster {
+    position: relative;
+    width: 300px; /* Ajusta el tamaño del póster según sea necesario */
+}
+
+.movie-poster .ribbon {
+    position: absolute;
+    top: 60px; /* Ajustado para que la etiqueta esté más cerca del borde superior */
+    left: -30px; /* Ajustado para que la etiqueta esté dentro del área del póster */
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transform: rotate(-45deg);
+    transform-origin: 0 0;
+    width: 120px; /* Ajustado el ancho de la cinta */
+    text-align: center;
+    line-height: 1.2;
+    z-index: 1;
+}
+
+.movie-poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 5px 15px 15px rgb(0, 0, 0);
+}
+
+.movie-details {
+    max-width: 500px; /* Ajusta el ancho máximo del contenedor de detalles */
+    text-align: left;
+    margin-top: 20px; /* Añadido margen superior para separación del contenido */
+}
+
+.movie-details h3,
+.movie-details h4 {
+    margin: 0;
+    color: #004991;
+}
+
+.movie-details p {
+    margin: 10px 0;
+}
+
+
+.movie-showtimes {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #d6d6d6f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-showtimes h4 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #0056b3;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 10px;
+}
+
+.showtime-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.showtime-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 10px;
+}
+
+.showtime-item:last-child {
+    border-bottom: none;
+}
+
+.showtime-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.showtime-right {
+    display: flex;
+    align-items: center;
+    gap: 200px; /* Ajuste de espacio entre la sala, los asientos y el botón */
+}
+
+.showtime-date,
+.showtime-time,
+.showtime-hall,
+.showtime-seats {
+    margin-right: 20px; /* Ajuste de espacio entre los elementos de la izquierda */
+}
+
+.showtime-date {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #0056b3;
+}
+
+.showtime-time,
+.showtime-hall, 
+.showtime-seats {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #484848;
+}
+
+.buy-ticket-button {
+    padding: 8px 15px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-ticket-button:hover {
+    background-color: #0056b3;
+}
+
+.buy-ticket-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+

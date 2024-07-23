@@ -1,0 +1,30 @@
+<div class="container mt-4" *ngIf="showtime && seats.length">
+    <div class="content-wrapper row">
+        <!-- Información del Showtime -->
+        <p><strong>ID de la Función: {{ showtime.id }}</strong> </p> 
+        <div class="col-md-4 showtime-info" *ngIf="movie">
+            <img [src]="movie.poster" class="img-fluid" alt="{{ movie.title }}">
+            <div class="showtime-info-text">
+                <h1><strong>{{ movie.title }}</strong> </h1>
+                <h2><strong>Sala  {{ showtime.hall }}</strong> </h2>
+                <p><strong>{{ showtime.show_date | date:'EEEE, d MMMM' }}</strong> </p>
+                <p><strong>Hora: {{ formatTime(showtime.show_time) }}</strong> </p>
+                <p><strong>Duración:</strong> {{ formatDuration(movie.duration_mins) }}</p>
+            </div>
+        </div>
+
+        <!-- Columna derecha con el escenario y los asientos -->
+        <div class="col-md-8">
+            <div class="screen">Escenario</div>
+            <div class="seats-container">
+                <div class="row" *ngFor="let row of seats">
+                    <button
+                    class="seat"
+                    *ngFor="let seat of row">
+                    {{ seat.label }}
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

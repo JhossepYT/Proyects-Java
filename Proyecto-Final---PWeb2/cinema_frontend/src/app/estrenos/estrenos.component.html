@@ -1,0 +1,20 @@
+<div class="container mt-4">
+  <h2 class="text-center">Estrenos</h2>
+  <div class="row">
+    <div class="col-6 col-md-3 mb-4" *ngFor="let movie of movies">
+      <div class="card movie-card">
+        <div class="ribbon">
+          <span>Estreno</span>
+        </div>
+        <img [src]="movie.poster" class="card-img-top" alt="{{ movie.title }}">
+        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center overlay">
+          <h5 class="card-title text-white">{{ movie.title }}</h5>
+          <div class="btn-group mt-2">
+            <a class="btn btn-primary btn-sm" [routerLink]="['/pelicula', movie.id]" fragment="showtimes">Comprar</a>
+            <a class="btn btn-secondary btn-sm" [routerLink]="['/pelicula', movie.id]">Ver detalles</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

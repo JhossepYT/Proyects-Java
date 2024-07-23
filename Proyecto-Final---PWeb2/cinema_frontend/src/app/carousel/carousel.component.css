@@ -1,0 +1,48 @@
+#tarjeta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-inner {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 500px;
+  opacity: 0.85; 
+}
+
+.carousel-caption {
+  bottom: 40px;
+  left: 55%;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  width: calc(30% - 20px);
+  background-color: rgba(0, 0, 0, 0.493);
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #00000094;
+  border-radius: 50%; /* Añade bordes redondeados */
+  padding: 50px; /* Añade espacio alrededor del ícono */
+}

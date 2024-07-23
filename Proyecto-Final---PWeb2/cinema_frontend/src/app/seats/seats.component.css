@@ -1,0 +1,74 @@
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px; /* Espacio entre la información y la sección de asientos */
+    background-color: #ebebeb;
+    margin-right: 0;
+}
+
+.showtime-info {
+    flex: 1;
+    max-width: 300px;
+    justify-content: right;
+}
+
+.showtime-info-text h1{
+    padding-top: 20px;
+    color: #004991;
+}
+
+.showtime-info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 80%; /* Esto hará que la imagen sea circular */
+    display: block; /* Asegura que la imagen se ajuste correctamente */
+    margin: 0 auto; /* Centra la imagen dentro del contenedor */
+}
+
+.showtime-info p {
+    margin: 10px 0;
+}
+
+.seats-section {
+    flex: 2; /* Ocupa el doble del espacio que la sección de información */
+    max-width: 800px; /* Ancho máximo de la sección de asientos */
+}
+
+.screen {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.seats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seat.occupied {
+    background-color: #f00;
+    cursor: not-allowed;
+    color: #fff;
+}

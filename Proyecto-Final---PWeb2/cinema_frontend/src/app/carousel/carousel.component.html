@@ -1,0 +1,28 @@
+<div id="tarjeta" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators" >
+    <button *ngFor="let movie of movies; let i = index"
+      type="button" 
+      data-bs-target="#tarjeta"
+      [attr.data-bs-slide-to]="i"
+      class="active"
+      aria-current="true"
+      [attr.aria-label]="'Slide ' + (i+1)"></button>
+  </div>
+  <div class="carousel-inner">
+    <div *ngFor="let movie of movies; let i = index" class="carousel-item" [class.active]="i === 0" data-bs-interval="2300">
+      <img [src]=movie.carousel_image class="d-block w-100" alt="..." style="width: 100%">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>{{movie.title}}</h5>
+        <p>{{movie.synopsis}}</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#tarjeta" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#tarjeta" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
