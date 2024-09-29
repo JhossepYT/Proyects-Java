@@ -5,9 +5,9 @@ import model.User;
 // Clase HistoryMode que maneja el modo historia del juego.
 public class HistoryMode {
     // Rutas de los recursos necesarios para la escena de la historia.
-    String imageFolderPath = "images/scenes/Introduction";
-    String audioPath = "sound/IntroductionAudio.wav";
-    String subtitlesPath = "code/subtitles/subtitles.txt";
+    String imageFolderPath = "images\\scenes\\Introduction";
+    String audioPath = "sound\\IntroductionAudio.wav";
+    String subtitlesPath = "code\\subtitles\\subtitles.txt";
 
     // Constructor que inicializa el modo historia con el usuario proporcionado.
     public HistoryMode(User user) {

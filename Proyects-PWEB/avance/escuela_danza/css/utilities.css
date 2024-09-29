@@ -1,0 +1,192 @@
+/* Global */
+* {
+	font-family: "Latolight";
+}
+
+@font-face {
+	font-family: LatoHeavy;
+	src: url(../fonts/LatoHeavy.ttf);
+}
+
+@font-face {
+	font-family: Latolight;
+	src: url(../fonts/Latolight.ttf);
+}
+
+@font-face {
+	font-family: DolceVita;
+	src: url(../fonts/DolceVita.ttf);
+}
+
+@font-face {
+	font-family: Neoteric-Bold;
+	src: url(../fonts/Neoteric-Bold.ttf);
+}
+
+/* Shortcuts */
+.pd-0 {
+	padding: 0;
+}
+
+.pt-5 {
+	padding-top: 5%;
+}
+
+.pb-5 {
+	padding-bottom: 5%;
+}
+
+.mg-0 {
+	margin: 0;
+}
+
+.mg-10 {
+	margin: 30px;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.lh {
+	line-height: 1.5;
+}
+
+.lh2 {
+	line-height: 2;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-white {
+	color: white;
+}
+
+.text-gray {
+	color: rgb(83, 88, 95);
+}
+
+.text-blue {
+	color: #192951;
+}
+
+.a-none-decoration {
+	text-decoration: none;
+}
+
+.bg-gray {
+	background-color: rgb(244, 244, 244);
+}
+
+.bg-gray2 {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bg-img-block {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #ffffff;
+	padding: 20px 0;
+	text-align: center;
+	box-shadow: 0px 4px 2px -2px gray;
+}
+
+header h1 {
+	margin: 0;
+	color: #1c2841;
+	font-size: 24px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #1c2841;
+	font-size: 16px;
+}
+
+.banner {
+	background-image: url('../img/dance_1.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+}
+
+.banner h2 {
+	font-size: 50px;
+	margin: 0;
+}
+
+.banner p {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.btn-inscribe {
+	background-color: #1c2841;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.content {
+	text-align: center;
+	padding: 40px 20px;
+	background-color: #f5f5f5;
+}
+
+.content h3 {
+	font-size: 22px;
+	margin: 0 0 20px;
+}
+
+.content p {
+	font-size: 18px;
+	margin: 0 0 40px;
+}
+
+.btn-clases {
+	background-color: #1c2841;
+	color: white;
+	padding: 15px 30px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #1c2841;
+	color: white;
+	font-size: 14px;
+}

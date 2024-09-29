@@ -14,7 +14,7 @@ public class LoginRegisterWindow extends JFrame implements ActionListener {
   // Constructor de la ventana de inicio de sesión/registro
   public LoginRegisterWindow() {
     userInfoDAO = new UserInfoDAO();
-    backgroundImage = new ImageIcon("images/resources/loginBackground.png").getImage();
+    backgroundImage = new ImageIcon("images\\resources\\loginBackground.png").getImage();
     initializeUI();
   }
 
@@ -45,10 +45,10 @@ public class LoginRegisterWindow extends JFrame implements ActionListener {
     passwordField.setBounds(180, 105, 170, 30);
     panel.add(passwordField);
 
-    loginButton = addImageButton(panel, "images/resources/NormalLogin.png",
-        "images/resources/HoverLogin.png", 60, 160, 150, 48);
-    registerButton = addImageButton(panel, "images/resources/NormalRegister.png",
-        "images/resources/HoverRegister.png", 220, 160, 150, 48);
+    loginButton = addImageButton(panel, "images\\resources\\NormalLogin.png",
+        "images\\resources\\HoverLogin.png", 60, 160, 150, 48);
+    registerButton = addImageButton(panel, "images\\resources\\NormalRegister.png",
+        "images\\resources\\HoverRegister.png", 220, 160, 150, 48);
   }
 
   // Método para añadir un JLabel estilizado al panel

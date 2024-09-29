@@ -72,7 +72,7 @@ public class HistoryVariantGame extends JFrame {
             @Override
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
-                ImageIcon icon = new ImageIcon("images/resources/backgroundGameplay.png"); // Ruta de la imagen de fondo
+                ImageIcon icon = new ImageIcon("images\\resources\\backgroundGameplay.png"); // Ruta de la imagen de fondo
                 g.drawImage(icon.getImage(), 0, 0, getWidth(), getHeight(), this);
             }
         };
@@ -139,8 +139,8 @@ public class HistoryVariantGame extends JFrame {
         attemptsLabel = addLabel("", 155, 200, 150, 40, "Times New Roman", 28);
 
         // Botón de regreso al menú con imagen y hover
-        JButton backButton = new JButton(new ImageIcon("images/resources/NormalMenu.png")); // Imagen normal del botón
-        backButton.setRolloverIcon(new ImageIcon("images/resources/HoverMenu.png")); // Imagen de hover del botón
+        JButton backButton = new JButton(new ImageIcon("images\\resources\\NormalMenu.png")); // Imagen normal del botón
+        backButton.setRolloverIcon(new ImageIcon("images\\resources\\HoverMenu.png")); // Imagen de hover del botón
         backButton.setBounds(115, 590, 150, 48);
         backButton.setContentAreaFilled(false);
         backButton.setBorderPainted(false);
@@ -151,25 +151,25 @@ public class HistoryVariantGame extends JFrame {
         trophyLabels = new JLabel[5];
 
         // Primera fila de dos trofeos
-        trophyLabels[0] = new JLabel(new ImageIcon("images/trophys/1.png"));
+        trophyLabels[0] = new JLabel(new ImageIcon("images\\trophys\\1.png"));
         trophyLabels[0].setBounds(48, 250, 80, 80);
         gamePanel.add(trophyLabels[0]);
 
-        trophyLabels[1] = new JLabel(new ImageIcon("images/trophys/3.png"));
+        trophyLabels[1] = new JLabel(new ImageIcon("images\\trophys\\3.png"));
         trophyLabels[1].setBounds(128, 250, 80, 80);
         gamePanel.add(trophyLabels[1]);
 
         // Segunda fila de dos trofeos
-        trophyLabels[2] = new JLabel(new ImageIcon("images/trophys/5.png"));
+        trophyLabels[2] = new JLabel(new ImageIcon("images\\trophys\\5.png"));
         trophyLabels[2].setBounds(48, 340, 80, 80);
         gamePanel.add(trophyLabels[2]);
 
-        trophyLabels[3] = new JLabel(new ImageIcon("images/trophys/7.png"));
+        trophyLabels[3] = new JLabel(new ImageIcon("images\\trophys\\7.png"));
         trophyLabels[3].setBounds(128, 340, 80, 80);
         gamePanel.add(trophyLabels[3]);
 
         // Tercer fila con un trofeo centrado
-        trophyLabels[4] = new JLabel(new ImageIcon("images/trophys/9.png"));
+        trophyLabels[4] = new JLabel(new ImageIcon("images\\trophys\\9.png"));
         trophyLabels[4].setBounds(89, 420, 80, 80);
         gamePanel.add(trophyLabels[4]);
 
