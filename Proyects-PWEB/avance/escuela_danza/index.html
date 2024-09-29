@@ -5,11 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escuela de Danza</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/utilities.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
 
+    <!-- El Header -->
     <header>
         <h1>ESCUELA DE DANZA</h1>
         <nav>
@@ -22,25 +31,106 @@
         </nav>
     </header>
 
-    <div class="banner">
-        <div>
+    <!-- Banner -->
+    <section class="banner">
+        <div class="banner-content">
             <h2>STUDIO</h2>
-            <p>Juilliart Studios es el lugar perfecto para encontrar tu estilo, con más de 20 estilos únicos y 80
-                maestros para elegir.</p>
+            <p>Julliart Studios is the perfect place to find your feet with over 20 unique styles of dance and 80
+                teachers to choose from.</p>
             <a href="#inscribete" class="btn-inscribe">Inscríbete</a>
         </div>
-    </div>
+    </section>
 
-    <div class="content">
-        <h3>Juilliart cuenta con una amplia trayectoria y reputación, brindando una formación de excelencia a cientos de
-            amantes de la danza.</h3>
-        <a href="#clases" class="btn-clases">Oferta de Clases</a>
-    </div>
+    <!-- Main -->
+    <section class="content text-center">
+        <div class="container">
+            <p>Juilliart cuenta con una amplia trayectoria y reputación, brindando una formación de excelencia a cientos
+                de amantes de la danza.</p>
+            <a href="#clases" class="btn-clases">Oferta de Clases</a>
+        </div>
+    </section>
 
+    <!-- LOS INSTRUCTORES (MODIFICAR) -->
+    <section class="content bg-blue text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/instructor_1.jpg" alt="Instructor 1" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <img src="img/instructor_2.jpg" alt="Instructor 2" class="img-fluid">
+                </div>
+            </div>
+            <h3 class="text-center mt-4">Nuestros instructores</h3>
+        </div>
+    </section>
+
+    <!-- FRASE (ESTILAR) -->
+    <section class="content bg-gray">
+        <div class="container text-center">
+            <blockquote>
+                "La danza es un poema en el que cada movimiento es una palabra."
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- UBICACION CON MAPS Y CONTACTOS (SEPARAR) -->
+    <section class="content bg-dark text-white py-5" id="ubicacion-contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Visítanos</h5>
+                    <p>The Juilliard School<br>60 Lincoln Center Plaza, New York, NY 10023</p>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9434202558345!2d-73.98601478425418!3d40.77382887932496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f662d78f3f%3A0x9cf7d7b775fbf603!2sThe%20Juilliard%20School!5e0!3m2!1ses!2sus!4v1632941207168!5m2!1ses!2sus"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Contáctanos</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-sm" placeholder="Nombre">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-sm" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control form-control-sm" placeholder="Teléfono">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control form-control-sm">
+                                <option>Selecciona un curso</option>
+                                <option>Ballet</option>
+                                <option>Danza Contemporánea</option>
+                                <option>Jazz</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" class="form-control form-control-sm" placeholder="Fecha de inicio">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-sm" rows="3" placeholder="Mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-sm">ENVIAR</button>
+                    </form>
+                    <div class="contact-image">
+                        <img src="img/ballet_shoes.jpg" alt="Zapatillas de ballet" class="img-fluid mt-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>© 2024 Escuela de Danza. Todos los derechos reservados.</p>
+        <p>&copy; Escuela de danza. Todos los derechos reservados.</p>
     </footer>
 
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
