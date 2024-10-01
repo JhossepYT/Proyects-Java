@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escuela de Danza</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/utilities.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">ESCUELA DE DANZA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clases.html">Clases</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contáctanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Sección de Clases -->
+  <section id="oferta-clases" class="py-5">
+    <div class="container">
+      <h2 class="text-center display-4 font-weight-bold mb-5">Oferta de Clases</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col mb-4">
+          <div class="clase-box" id="ballet-clasico">
+            <div class="overlay">
+              <h3>Ballet Clásico</h3>
+              <p>Aprende las técnicas fundamentales y la gracia del ballet clásico.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="clase-box" id="ballet-avanzado">
+            <div class="overlay">
+              <h3>Danza Moderna</h3>
+              <p>Explora movimientos dinámicos y expresivos con técnica moderna.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="clase-box" id="ballet-ninos">
+            <div class="overlay">
+              <h3>BreakDance</h3>
+              <p>Desarrolla fuerza y creatividad a través de movimientos urbanos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="clase-box" id="ballet-intermedio">
+            <div class="overlay">
+              <h3>Baile Arabe</h3>
+              <p>Conecta con tu cuerpo a través de movimientos fluidos y sensuales.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="clase-box" id="ballet-contemporaneo">
+            <div class="overlay">
+              <h3>Ballet Infantil</h3>
+              <p>Clases de ballet para los más pequeños.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="clase-box" id="ballet-infantil">
+            <div class="overlay">
+              <h3>Yoga</h3>
+              <p>Encuentra tu equilibrio físico y mental con nuestras clases de yoga.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contacto Section -->
+  <section id="contacto" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+          <div class="contact-form">
+            <h4 class="text-center mb-4">Contáctanos</h4>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Nombre">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" placeholder="Teléfono">
+              </div>
+              <div class="form-group">
+                <select class="form-control">
+                  <option>Selecciona un curso</option>
+                  <option>Ballet</option>
+                  <option>Danza Contemporánea</option>
+                  <option>Jazz</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <input type="date" class="form-control" placeholder="Fecha de inicio">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">ENVIAR</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Escuela de danza. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+
+</html>

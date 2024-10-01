@@ -34,32 +34,36 @@ body {
 /* Header */
 header {
 	background-color: #fff;
-	padding: 20px 0;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 15px 0;
 }
 
-header h1 {
+header .navbar-brand {
 	font-family: "LatoHeavy", Arial, sans-serif;
 	font-size: 24px;
 	color: #192951;
-	text-align: center;
-	margin-bottom: 10px;
 }
 
-nav ul {
-	list-style-type: none;
-	display: flex;
-	justify-content: center;
-}
-
-nav ul li {
-	margin: 0 15px;
-}
-
-nav ul li a {
+header .nav-link {
+	font-family: "Latolight", Arial, sans-serif;
 	color: #192951;
-	text-decoration: none;
 	font-size: 16px;
+	margin: 0 10px;
+	transition: color 0.3s ease;
+}
+
+header .nav-link:hover {
+	color: #4a90e2;
+}
+
+@media (max-width: 991.98px) {
+	header .navbar-nav {
+		margin-top: 15px;
+	}
+
+	header .nav-link {
+		padding: 10px 0;
+	}
 }
 
 /* Banner Section */
@@ -74,7 +78,11 @@ nav ul li a {
 }
 
 .banner-content {
-	max-width: 50%;
+	max-width: 21%;
+	/* Ancho*/
+	margin-left: 5%;
+	/* Ajuste desde la izquierda */
+	text-align: left;
 }
 
 .banner h2 {
@@ -85,9 +93,14 @@ nav ul li a {
 }
 
 .banner p {
-	font-size: 18px;
+	font-size: 16px;
+	/* Slightly reduced from 18px */
 	margin-bottom: 30px;
 	color: white;
+	line-height: 1.5;
+	/* Added for better readability */
+	max-width: 90%;
+	/* Added to make the paragraph even narrower within its container */
 }
 
 .btn-inscribe {
@@ -97,6 +110,52 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 16px;
 	border: none;
+	display: inline-block;
+	/* Added to ensure proper button sizing */
+}
+
+/* Fondo del "Sobre Nosotros" (reutilizando lógica de Banner) */
+.sobre-nosotros {
+	background-image: url('../img/dance_7.jpg');
+	/* Ruta de la imagen */
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	/* Centramos el cuadro horizontalmente */
+	align-items: center;
+	/* Centramos el cuadro verticalmente */
+	height: 500px;
+	/* Ajusta la altura según necesidad */
+	padding: 0 5%;
+}
+
+/* Cuadro con opacidad que contiene el texto */
+.sobre-nosotros-cuadro {
+	background-color: rgba(0, 0, 0, 0.6);
+	/* Fondo negro con opacidad del 60% */
+	padding: 20px;
+	border-radius: 10px;
+	/* Bordes redondeados */
+	text-align: center;
+	max-width: 50%;
+	/* Ajusta el ancho del cuadro según necesidad */
+}
+
+/* Estilo del título */
+.sobre-nosotros h2 {
+	font-family: "DolceVita", Arial, sans-serif;
+	font-size: 50px;
+	color: white;
+	/* Texto en blanco */
+	margin-bottom: 20px;
+}
+
+/* Estilo del párrafo */
+.sobre-nosotros p {
+	font-size: 18px;
+	color: white;
+	line-height: 1.6;
 }
 
 /* Main Sections */
@@ -125,7 +184,6 @@ nav ul li a {
 	font-size: 16px;
 }
 
-/* Instructores Section */
 .bg-blue {
 	background-color: #192951;
 }
@@ -139,34 +197,77 @@ blockquote {
 	padding: 40px 0;
 }
 
-/* Maps y Contacto (FIXEAR EL COLOR) */
-#ubicacion-contacto {
+/* Visítanos Section */
+#ubicacion {
 	background-color: #192951;
+	;
 }
 
-.map-container {
-	width: 100%;
-	height: 300px;
-	margin-top: 20px;
+#ubicacion h5 {
+	font-size: 5em;
+	margin: 5% auto;
 }
 
-/* Contact Form */
-.form-control-sm {
-	font-size: 14px;
-	padding: 0.25rem 0.5rem;
-	height: calc(1.5em + 0.5rem + 2px);
+#ubicacion p {
+	font-size: 1.8em;
+	margin: 5% auto;
 }
 
-.btn-primary {
+
+/* Contacto Section */
+#contacto {
+	background-image: url('../img/shoes_1.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0;
+}
+
+#contacto .contact-form {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+	padding: 30px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#contacto h4 {
+	font-family: "Neoteric-Bold", Arial, sans-serif;
+	color: #192951;
+	margin-bottom: 25px;
+}
+
+#contacto .form-control {
+	border: 1px solid #ced4da;
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin-bottom: 20px;
+	transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contacto .form-control:focus {
+	border-color: #4a90e2;
+	box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
+}
+
+#contacto .btn-primary {
 	background-color: #192951;
 	border: none;
-	padding: 8px 16px;
-	font-size: 14px;
+	padding: 10px 25px;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
 }
 
-.contact-image img {
-	max-height: 200px;
-	object-fit: cover;
+#contacto .btn-primary:hover {
+	background-color: #4a90e2;
+}
+
+@media (max-width: 767.98px) {
+	#contacto {
+		padding: 40px 0;
+	}
+
+	#contacto .contact-form {
+		padding: 20px;
+	}
 }
 
 /* Footer */
@@ -174,7 +275,8 @@ footer {
 	background-color: #192951;
 	color: white;
 	text-align: center;
-	padding: 20px 0;
+	padding: 5px 0;
+	bottom: 1px;
 	font-size: 14px;
 }
 
@@ -206,11 +308,19 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
 	.banner-content {
-		max-width: 100%;
+		max-width: 80%;
+		/* Adjusted for better mobile display */
+		margin-left: 0;
+		/* Remove offset on mobile */
 	}
 
 	.banner h2 {
 		font-size: 40px;
+	}
+
+	.banner p {
+		font-size: 14px;
+		/* Further reduced for mobile */
 	}
 
 	.content {
@@ -220,4 +330,283 @@ footer {
 	.map-container {
 		height: 200px;
 	}
+}
+
+
+/* Fondo de la sección Pilares*/
+.pilares {
+	background-image: url('../img/cubes.png');
+	background-repeat: repeat;
+	/* Esto hace que la imagen se repita horizontal y verticalmente */
+	background-size: auto;
+	/* La imagen no se redimensiona, se repite en su tamaño original */
+	background-position: top left;
+	/* La imagen comienza a repetirse desde la esquina de up left */
+	padding: 60px 0;
+}
+
+
+/* Contenedor de los pilares */
+.pilares-contenido {
+	margin-top: 10px;
+}
+
+/* Estilo para cada pilar */
+.pilar h3 {
+	font-size: 24px;
+	color: #000000ad;
+	margin-bottom: 10px;
+}
+
+/* Línea entre el título y el texto */
+.pilar hr {
+	border: 1px solid #000000ad;
+	/* Línea blanca */
+	margin: 10px 0 20px;
+}
+
+/* Texto de los pilares */
+.pilar p {
+	font-size: 16px;
+	color: #000000ad;
+	line-height: 1.5;
+}
+
+/* Ajuste del color y el formato */
+.pilar {
+	color: #fff;
+	padding: 20px;
+}
+
+
+/* Contacto Section */
+.contacto-banner {
+	background-image: url('../img/shoes_1.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 5%;
+}
+
+/* Ajustes adicionales para el formulario */
+#contacto .form-control-sm {
+	font-size: 14px;
+	padding: 0.25rem 0.5rem;
+	height: calc(1.5em + 0.5rem + 2px);
+}
+
+#contacto .btn-primary {
+	background-color: #192951;
+	border: none;
+	padding: 8px 16px;
+	font-size: 14px;
+}
+
+#contacto .contact-image img {
+	max-height: 200px;
+	object-fit: cover;
+}
+
+/* Estilos para la sección de clases */
+#oferta-clases {
+	background-color: #f8f9fa;
+	padding: 60px 0;
+}
+
+.clase-box {
+	height: 300px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.clase-box:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Imágenes de fondo únicas para cada clase */
+#ballet-clasico {
+	background-image: url('../img/dance_12.jpg');
+}
+
+#ballet-avanzado {
+	background-image: url('../img/breakdance.jpg');
+}
+
+#ballet-ninos {
+	background-image: url('../img/lirical-jazz.jpg');
+}
+
+#ballet-intermedio {
+	background-image: url('../img/arabe.jpg');
+}
+
+#ballet-contemporaneo {
+	background-image: url('../img/little.jpg');
+}
+
+#ballet-infantil {
+	background-image: url('../img/yoga.jpg');
+}
+
+.clase-box::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+	opacity: 0.7;
+	transition: opacity 0.3s ease;
+}
+
+.clase-box:hover::before {
+	opacity: 0.9;
+}
+
+.clase-box .overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	transform: translateY(50%);
+	transition: transform 0.3s ease;
+}
+
+.clase-box:hover .overlay {
+	transform: translateY(0);
+}
+
+.clase-box .overlay h3 {
+	font-size: 22px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.clase-box .overlay p {
+	font-size: 16px;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.clase-box:hover .overlay p {
+	opacity: 1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+	.clase-box {
+		height: 250px;
+	}
+
+	.clase-box .overlay h3 {
+		font-size: 20px;
+	}
+
+	.clase-box .overlay p {
+		font-size: 14px;
+	}
+}
+
+/* Estilos para la sección de Blog */
+#blog {
+	background-color: #e6e9f0;
+	/* Color de fondo suave que armoniza con el esquema de colores existente */
+}
+
+#blog h2 {
+	font-family: "DolceVita", Arial, sans-serif;
+	color: #192951;
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.blog-post {
+	background-color: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	padding: 15px;
+	height: 100%;
+	/* Asegura que todas las tarjetas tengan la misma altura */
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	display: flex;
+	flex-direction: column;
+}
+
+.blog-post:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.blog-post img {
+	border-radius: 8px;
+	object-fit: cover;
+	height: 160px;
+	width: 100%;
+}
+
+.blog-post h3 {
+	font-family: "Neoteric-Bold", Arial, sans-serif;
+	color: #192951;
+	font-size: 1.1rem;
+	margin-top: 15px;
+	flex-grow: 1;
+	/* Permite que el título ocupe el espacio disponible */
+}
+
+.blog-post p {
+	color: #53585f;
+	font-size: 0.9rem;
+	margin-bottom: 15px;
+}
+
+.blog-post .btn-outline-primary {
+	color: #192951;
+	border-color: #192951;
+	align-self: flex-start;
+	/* Alinea el botón al inicio del contenedor flex */
+}
+
+.blog-post .btn-outline-primary:hover {
+	background-color: #192951;
+	color: #ffffff;
+}
+
+/* Estilos para la paginación */
+.pagination .page-link {
+	color: #192951;
+	border-color: #192951;
+}
+
+.pagination .page-item.active .page-link {
+	background-color: #192951;
+	border-color: #192951;
+}
+
+.pagination .page-link:hover {
+	background-color: #e6e9f0;
+	color: #192951;
+}
+
+#instructores img {
+	width: 300px;
+	height: 270px;
+	object-fit: cover;
+	border-radius: 50%;
 }
